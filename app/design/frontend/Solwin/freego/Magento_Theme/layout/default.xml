@@ -9,6 +9,7 @@
     <body>
         <referenceContainer name="header.panel">
             <block class="Magento\Framework\View\Element\Template" name="cpanel.header.notification" as="cpanel_header_notification" before="-" template="Magento_Theme::html/header/notification.phtml" ></block>
+            <block class="Magento\Framework\View\Element\Template" name="cpanel.header.info" as="cpanel_header_info" before="-" template="Magento_Theme::html/header/info.phtml" ></block>
         </referenceContainer>
         <referenceContainer name="header.panel">
             <block class="Magento\Framework\View\Element\Html\Links" name="header.links">

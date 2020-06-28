@@ -40,6 +40,12 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper {
         return $this->scopeConfig->getValue('cpanelsection/headergroup/top_header_notification', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
     }
 
+    /* top header info */
+
+    public function getTopheaderinfo() {
+        return $this->scopeConfig->getValue('cpanelsection/headergroup/top_header_info', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+    }
+
     /* Show sharing addon or not */
 
     public function getShowsharingaddon() {
